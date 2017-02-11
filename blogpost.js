@@ -12,6 +12,7 @@ db.run("INSERT into posts(title,body, post_id) VALUES ('title 3', 'title 3 body'
 db.all("SELECT * from posts",function(err,rows){
 	//rows should contain all values, let's dump it and figure out how to handle object.
 	console.log(rows);
+	console.log(JSON.stringify(rows));
 });
 
 
