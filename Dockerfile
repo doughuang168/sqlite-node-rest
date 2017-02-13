@@ -5,7 +5,7 @@ RUN groupadd -r app && useradd -r -g app app
 RUN mkdir -p /usr/src/app
 COPY package.json /usr/src/app/
 COPY blogpost.js  /usr/src/app
-COPY blog.db      /usr/src/app/blog.db
+#COPY blog.db      /usr/src/app/blog.db
 
 WORKDIR /usr/src/app
  
