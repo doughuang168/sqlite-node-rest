@@ -1,5 +1,4 @@
 .idea
 *.iml
 node_modules
-blog.db
 npm-debug.log
