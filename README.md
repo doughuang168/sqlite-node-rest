@@ -28,3 +28,16 @@ All data exchanged with the API must be in JSON format.
 
 * node blogpost.js 
  
+
+## Schema of blog table
+
+
+* post primary key
+* title string
+* body string
+
+
+## Design of RESTful API 
+* use node.js sqlite3 driver for easy implementation and good support from open source community
+* use express framework to implement RESTful API
+* use node-uuid to generate unique primary key
