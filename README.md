@@ -13,6 +13,7 @@ All data exchanged with the API must be in JSON format.
 
  
 * git clone https://github.com/doughuang168/sqlite-node-rest.git
+* cd  sqlite-node-rest
 * npm install
 
 
