@@ -21,7 +21,7 @@ All data exchanged with the API must be in JSON format.
  
 
 * docker build -t sqlite-node-rest .  
-* docker run -d --name sqlitenode -v blog.db:/usr/src/app/blog.db -p 3000:3000 sqlite-node-rest
+* docker run -d --name sqlitenode -v \`pwd\`/blog.db:/usr/src/app/blog.db -p 3000:3000 sqlite-node-rest
 
 ## Start the API Service without Docker
 
@@ -32,7 +32,7 @@ All data exchanged with the API must be in JSON format.
 ## Schema of blog table
 
 
-* post primary key
+* post_id primary key
 * title string
 * body string
 
